@@ -7,7 +7,7 @@ Feature: Job Titles Functionality
     And Admin User navigates to "Admin" page
     And Admin User selects "Job Titles" from "Job" dropdown
 
-  # Tescase 1: Create new job
+  # Tescase 1: Create new job abc
   Scenario Outline: Verify Add new Job Title Functionality
     When Admin User clicks add button
     And Admin User provides Job Title field values "<jobTitle>" "<description>" "<notes>"
